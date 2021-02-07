@@ -3,6 +3,8 @@ package calculadora;
 /**
  * Esta clase realiza las siguientes cuatro operaciones: division con numero entero, 
  * division con decimales, inverso de un numero real y raiz cuadrada.
+ * Contiene cuatro metodos que realizan las distintas operaciones algoritmicas y otros  
+ * tres metodos que devuelven unicamente el valor de las operaciones realizadas. 
  * 
  * @author Sergio&Jorge
  * @since  24/01/2021
@@ -169,7 +171,7 @@ public class Cociente {
  * 
  */	
 		
-		String consultarDouble() {
+		public String consultarDouble() {
 			
 			return("El resultado de la division con dos numeros reales es: " + this.resultadoDouble);
 			
@@ -185,7 +187,7 @@ public class Cociente {
  * 
  */		
 		
-		String consultarRaiz() {
+		public String consultarRaiz() {
 			
 			return("El resultado de la raiz de dos numeros reales es: " + this.resultadoRaiz);
 			
@@ -201,7 +203,7 @@ public class Cociente {
  * 
  */		
 				
-		String consultarInverso() {
+		public String consultarInverso() {
 					
 			return("El resultado del inverso de un numero entero es: " + this.resultadoInverso);
 					

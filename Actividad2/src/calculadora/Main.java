@@ -1,15 +1,24 @@
 package calculadora;
 
-public class Main {
+/*
+ * Esta clase realiza consultas mediante los metodos de las distintas clases:
+ * Suma, Resta, Producto y Cociente.
+ * 
+ * @since 07/02/2021
+ *  
+ */
 
+public class Main {
+	
+	
 	public static void main(String[] args) {
 		
-		
-		Cociente coc = new Cociente();
+		//METODOS DE LA CLASE COCIENTE
+		Cociente coc = new Cociente();//crea objeto de la clase Cociente
 		coc.divisionDecimales(10.2,0.50);
 		System.out.println(coc.consultarDouble());
 		System.out.println("***************************");
-		Cociente coc2 = new Cociente();
+		Cociente coc2 = new Cociente();//crea objeto de la clase Cociente
 		coc2.division(6, 3);
 		System.out.println(coc2.consultar());
 		System.out.println("***************************");
