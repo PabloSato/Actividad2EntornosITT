@@ -17,4 +17,9 @@ public class Suma {
 		return num1 + num2 + num3;
 	}
 
+	public void valorAcumulado(int num) {
+
+		int valorAcumulado = +num;
+	}
+
 }
