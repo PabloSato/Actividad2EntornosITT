@@ -59,6 +59,15 @@ public class Suma {
 		return num1 + num2 + num3;
 	}
 
+	/**
+	 * ESte método recibe <b>un</b> valor de <b>entrada</b> y lo va
+	 * <b>acumulando</b>
+	 * 
+	 * @param num representa el <b>valor</b> de entrada. Es un número <b>entero</b>.
+	 * 
+	 *            Este método <b>no</b> devuelve valor.
+	 * 
+	 */
 	public void valorAcumulado(int num) {
 
 		int valorAcumulado = +num;
