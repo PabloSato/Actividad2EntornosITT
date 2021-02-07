@@ -30,6 +30,15 @@ public class Suma {
 		return num1 + num2;
 	}
 
+	/**
+	 * Este método realiza la <b>suma</b> de <b>dos</b> números <b>enteros</b>.
+	 * 
+	 * @param num1 representa el <b>primer</b> número <b>entero</b> a sumar.
+	 * @param num2 representa el <b>segundo</b> número <b>entero</b> a sumar.
+	 * 
+	 * @return devuelve la <b>suma</b> de <b>ambos</b> números.
+	 * 
+	 */
 	public int sumaDosEnteros(int num1, int num2) {
 
 		return num1 + num2;
