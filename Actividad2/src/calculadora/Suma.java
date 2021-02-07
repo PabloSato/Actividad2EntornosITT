@@ -44,6 +44,16 @@ public class Suma {
 		return num1 + num2;
 	}
 
+	/**
+	 * Este método realiza la <b>suma</b> de <b>tres</b> números <b>reales</b>.
+	 * 
+	 * @param num1 representa el <b>primer</b> número <b>real</b> a sumar.
+	 * @param num2 representa el <b>segundo</b> número <b>real</b> a sumar.
+	 * @param num3 representa el <b>tercer</b> número <b>real</b> a sumar.
+	 * 
+	 * @return devuelve la <b>suma</b> de los <b>tres</b> números.
+	 * 
+	 */
 	public double sumaTresReales(double num1, double num2, double num3) {
 
 		return num1 + num2 + num3;
