@@ -16,6 +16,15 @@ package calculadora;
  */
 public class Suma {
 
+	/**
+	 * Este método realiza la <b>suma</b> de <b>dos</b> números <b>reales</b>.
+	 * 
+	 * @param num1 representa el <b>primer</b> número <b>real</b> a sumar.
+	 * @param num2 representa el <b>segundo</b> número <b>real</b> a sumar.
+	 * 
+	 * @return devuelve la <b>suma</b> de <b>ambos</b> números.
+	 * 
+	 */
 	public double sumaDosReales(double num1, double num2) {
 
 		return num1 + num2;
