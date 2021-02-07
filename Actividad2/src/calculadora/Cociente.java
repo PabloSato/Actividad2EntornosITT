@@ -19,6 +19,16 @@ public class Cociente {
 	private double resultadoRaiz;
 	private double resultadoInverso;
 	
+/** 
+ * Este metodo construye las propiedades del resultado, con valor incial
+ * 0 para resultado en numeros enteros y 0.0 para aquellos resultados que son numeros reales.
+ * 
+ * @author Sergio
+ * @since 07/02/2021
+ * 	
+ */
+	
+	
 	//metodo constructor  
 	public Cociente() {
 
