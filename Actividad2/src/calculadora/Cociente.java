@@ -4,10 +4,11 @@ package calculadora;
  * Esta clase realiza las siguientes cuatro operaciones: division con numero entero, 
  * division con decimales, inverso de un numero real y raiz cuadrada.
  * Contiene cuatro metodos que realizan las distintas operaciones algoritmicas y otros  
- * tres metodos que devuelven unicamente el valor de las operaciones realizadas. 
+ * tres metodos que devuelven unicamente el valor de las operaciones realizadas (numero entero, 
+ * o real). 
  * 
- * @author Sergio&Jorge
- * @since  24/01/2021
+ * @author Sergio
+ * @since  07/02/2021
  * 
  */
 
