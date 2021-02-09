@@ -58,7 +58,7 @@ public class Main {
 		System.out.println(cocJ1.consultarRaiz2());
 		System.out.println("***************************");
 		cocJ1.inverso2(8);
-		System.out.println(cocJ1.consultarInverso2());
+		System.out.println(cocJ1.consultarInverso2());//
 				
 	}
 	
