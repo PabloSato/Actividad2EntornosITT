@@ -9,7 +9,7 @@ package calculadora;
  * 
  * @author Sergio
  * @since  07/02/2021
- * 
+ *
  */
 
 public class Cociente {
