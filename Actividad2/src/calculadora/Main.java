@@ -35,6 +35,16 @@ public class Main {
 		System.out.println(suma.sumaTresReales(10, 20, 30));
 		suma.valorAcumulado(10);
 		suma.valorAcumulado(20);
+		
+		//METODOS DE LA CLASE RESTA
+		Resta resta = new Resta();
+		resta.setReales2(4, 6);
+		System.out.println(resta.toString());
+		resta.setReales3(7, 2, 1);
+		System.out.println(resta.toString());
+		resta.setEnteros(10, 5);
+		System.out.println(resta.toString());
+		
 
 	}
 	
