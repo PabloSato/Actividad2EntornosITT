@@ -45,7 +45,21 @@ public class Main {
 		resta.setEnteros(10, 5);
 		System.out.println(resta.toString());
 		
-
+		//METODOS DE LA CLASE COCIENTEJORGE
+		cocienteJorge cocJ = new cocienteJorge();
+		cocJ.divisionDecimales2(40.50,0.75);
+		System.out.println(cocJ.consultarDouble2());
+		System.out.println("***************************");
+		cocienteJorge cocJ1 = new cocienteJorge();
+		cocJ1.division2(8, 4);
+		System.out.println(cocJ1.consultar2());
+		System.out.println("***************************");
+		cocJ1.raiz2(81);
+		System.out.println(cocJ1.consultarRaiz2());
+		System.out.println("***************************");
+		cocJ1.inverso2(8);
+		System.out.println(cocJ1.consultarInverso2());//
+				
 	}
 	
 }
