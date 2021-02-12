@@ -1,5 +1,7 @@
 package calculadora;
 
+import calculadora.Producto;
+
 /*
  * Esta clase realiza consultas mediante los metodos de las distintas clases:
  * Suma, Resta, Producto y Cociente.
@@ -58,8 +60,14 @@ public class Main {
 		System.out.println(cocJ1.consultarRaiz2());
 		System.out.println("***************************");
 		cocJ1.inverso2(8);
-		System.out.println(cocJ1.consultarInverso2());//
-				
+		System.out.println(cocJ1.consultarInverso2());
+		
+		//METODOS AÑADIDOS POR RUBEN
+		Producto producto = new Producto();
+		System.out.println(producto.productoDosReales(4, 5));
+		System.out.println(producto.productoDosEnteros(7, 6));
+		System.out.println(producto.productoTresReales(10, 20, 30));
+		System.out.println(producto.potenciaDouble(50,40));				
 	}
 	
 }
