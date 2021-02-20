@@ -42,8 +42,73 @@ class Test_resta {
 	
 	
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testSetReales2() {
+		res1.setReales2(2, 1);
+		
+		assertEquals(1, res1.getResultado());
+		assertEquals(1, res1.getAcumulador());
+		
+		assertNotEquals(2, res1.getResultado());
+		assertNotEquals(2, res1.getAcumulador());
+		
+		res1.setReales2(1, 3);
+		
+		assertEquals(-2, res1.getResultado());
+		assertEquals(-1, res1.getAcumulador());
+		
+		assertNotEquals(2, res1.getResultado());
+		assertNotEquals(1, res1.getAcumulador());
+		
+		res1.setReales2(-2, 2);
+		
+		assertEquals(-4, res1.getResultado());
+		assertEquals(-5, res1.getAcumulador());
+		assertEquals(-5, res1.getAcumulado());
+		
+		assertNotEquals(4, res1.getResultado());
+		assertNotEquals(5, res1.getAcumulador());
+		assertNotEquals(5, res1.getAcumulado());
+		
+		res1.setReales2(2, -2);
+		
+		assertEquals(4, res1.getResultado());
+		assertEquals(-1, res1.getAcumulador());
+		assertEquals(-1, res1.getAcumulado());
+		
+		assertNotEquals(2, res1.getResultado());
+		assertNotEquals(1, res1.getAcumulador());
+		assertNotEquals(1, res1.getAcumulado());
+		
+		res1.setReales2(-2, -2);
+		
+		assertEquals(0, res1.getResultado());
+		assertEquals(-1, res1.getAcumulador());
+		assertEquals(-1, res1.getAcumulado());
+
+		assertNotEquals(2, res1.getResultado());
+		assertNotEquals(1, res1.getAcumulador());
+		assertNotEquals(1, res1.getAcumulado());
+		
+		res1.setReales2(1000000000, 1000000000);
+		
+		assertEquals(0, res1.getResultado());
+		assertEquals(-1, res1.getAcumulador());
+		assertEquals(-1, res1.getAcumulado());
+
+		assertNotEquals(2, res1.getResultado());
+		assertNotEquals(1, res1.getAcumulador());
+		assertNotEquals(1, res1.getAcumulado());
+		
+		res1.setReales2(-1000000000, -1000000000);
+		
+		assertEquals(0, res1.getResultado());
+		assertEquals(-1, res1.getAcumulador());
+		assertEquals(-1, res1.getAcumulado());
+
+		assertNotEquals(2, res1.getResultado());
+		assertNotEquals(1, res1.getAcumulador());
+		assertNotEquals(1, res1.getAcumulado());
+		
 	}
 
 }
