@@ -255,4 +255,14 @@ class Test_resta {
 		assertNotEquals(1, res1.getAcumulador());
 		assertNotEquals(1, res1.getAcumulado());
 	}
+	
+	@Test
+	void testToString() {
+		res1.toString();
+		
+		//System.out.println(res1.toString());
+		assertEquals("Resta [resultado=0.0, acumulado=0.0]", res1.toString());
+		
+		assertNotEquals("Resta [resultado=0, acumulado=0]", res1.toString());
+	}
 }
