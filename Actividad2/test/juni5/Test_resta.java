@@ -40,9 +40,37 @@ class Test_resta {
 		
 	}
 	
+	@Test
+	void testAcumulador() {
+		res1.toString();
+		
+		assertEquals(0, res1.getAcumulador());
+		
+		assertNotEquals(1, res1.getAcumulador());
+	}
+	
+	@Test
+	void testAcumulado() {
+		res1.toString();
+		
+		assertEquals(0, res1.getAcumulado());
+		
+		assertNotEquals(1, res1.getAcumulado());
+	}
+	
+	@Test
+	void testResultado() {
+		res1.toString();
+		
+		assertEquals(0, res1.getResultado());
+		
+		assertNotEquals(1, res1.getResultado());
+		
+	}
 	
 	@Test
 	void testSetReales2() {
+
 		res1.setReales2(2, 1);
 		
 		assertEquals(1, res1.getResultado());
@@ -110,5 +138,4 @@ class Test_resta {
 		assertNotEquals(1, res1.getAcumulado());
 		
 	}
-
 }
