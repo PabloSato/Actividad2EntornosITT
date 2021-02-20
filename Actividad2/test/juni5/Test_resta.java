@@ -8,7 +8,11 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import calculadora.Resta;
+
 class Test_resta {
+	
+	private Resta res1;
 
 	/**
 	 * Pruebas Unitarias de la clase Resta
