@@ -42,6 +42,7 @@ public class Resta {
 	 *
 	 *  
 	 */
+	//ESTE METODO NO ESTÁ EN USO-------------------------------------------------------
 	public double getAcumulado() {
 		return acumulado;
 	} 
