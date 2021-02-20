@@ -37,7 +37,7 @@ class Test_resta {
 	
 	@AfterEach
 	void tearDown() throws Exception{
-		
+		res1 = null;
 	}
 	
 	@Test
