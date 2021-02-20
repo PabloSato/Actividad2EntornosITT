@@ -201,4 +201,58 @@ class Test_resta {
 		assertNotEquals(7, res1.getAcumulador());
 		assertNotEquals(1, res1.getAcumulado());
 	}
+	
+	@Test
+	void testEnteros() {
+		res1.setEnteros(2, 1);
+
+		assertEquals(1, res1.getResultado());
+		assertEquals(1, res1.getAcumulador());
+		assertEquals(1, res1.getAcumulado());
+		
+		assertNotEquals(-1, res1.getResultado());
+		assertNotEquals(-1, res1.getAcumulador());
+		assertNotEquals(-1, res1.getAcumulado());
+		
+
+		res1.setEnteros(1, 2);
+
+		assertEquals(-1, res1.getResultado());
+		assertEquals(0, res1.getAcumulador());
+		assertEquals(0, res1.getAcumulado());
+		
+		assertNotEquals(1, res1.getResultado());
+		assertNotEquals(1, res1.getAcumulador());
+		assertNotEquals(1, res1.getAcumulado());
+
+		res1.setEnteros(-2, 1);
+
+		assertEquals(-3, res1.getResultado());
+		assertEquals(-3, res1.getAcumulador());
+		assertEquals(-3, res1.getAcumulado());
+		
+		assertNotEquals(3, res1.getResultado());
+		assertNotEquals(3, res1.getAcumulador());
+		assertNotEquals(3, res1.getAcumulado());
+
+		res1.setEnteros(2, -1);
+
+		assertEquals(3, res1.getResultado());
+		assertEquals(0, res1.getAcumulador());
+		assertEquals(0, res1.getAcumulado());
+		
+		assertNotEquals(-3, res1.getResultado());
+		assertNotEquals(-1, res1.getAcumulador());
+		assertNotEquals(-1, res1.getAcumulado());
+
+		res1.setEnteros(-2, -1);
+
+		assertEquals(-1, res1.getResultado());
+		assertEquals(-1, res1.getAcumulador());
+		assertEquals(-1, res1.getAcumulado());
+		
+		assertNotEquals(1, res1.getResultado());
+		assertNotEquals(1, res1.getAcumulador());
+		assertNotEquals(1, res1.getAcumulado());
+	}
 }
