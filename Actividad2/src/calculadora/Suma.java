@@ -1,15 +1,15 @@
 package calculadora;
 
 /**
- * Clase <b>Suma</b> contiene una serie de metodos que realizan operaciones básicas numéricas de suma entre 2 o 3 números.
- * Cuenta con los métodos sumaDosReales que realiza la suma de dos números reales y devuelve el resultado. El método
- * sumaDosEnteros que realiza la suma de dos números enteros y devuelve el resultado. El método sumaTresREales
- * que realiza la suma de tres números reales y devuelve el resultado.
- * Además cuenta con un método que no devuelve nada alguno pero que acumula el valor añadido.
+ * Clase <b>Suma</b> contiene una serie de metodos que realizan operaciones bï¿½sicas numï¿½ricas de suma entre 2 o 3 nï¿½meros.
+ * Cuenta con los mï¿½todos sumaDosReales que realiza la suma de dos nï¿½meros reales y devuelve el resultado. El mï¿½todo
+ * sumaDosEnteros que realiza la suma de dos nï¿½meros enteros y devuelve el resultado. El mï¿½todo sumaTresREales
+ * que realiza la suma de tres nï¿½meros reales y devuelve el resultado.
+ * Ademï¿½s cuenta con un mï¿½todo que no devuelve nada alguno pero que acumula el valor aï¿½adido.
  * 
  * 
  * 
- * @author Pablo Fernández Sato
+ * @author Pablo Fernï¿½ndez Sato
  * @version 1.0
  * @see Suma
  *
@@ -17,26 +17,27 @@ package calculadora;
 public class Suma {
 
 	/**
-	 * Este método realiza la <b>suma</b> de <b>dos</b> números <b>reales</b>.
+	 * Este mï¿½todo realiza la <b>suma</b> de <b>dos</b> nï¿½meros <b>reales</b>.
 	 * 
-	 * @param num1 representa el <b>primer</b> número <b>real</b> a sumar.
-	 * @param num2 representa el <b>segundo</b> número <b>real</b> a sumar.
+	 * @param num1 representa el <b>primer</b> nï¿½mero <b>real</b> a sumar.
+	 * @param num2 representa el <b>segundo</b> nï¿½mero <b>real</b> a sumar.
 	 * 
-	 * @return devuelve la <b>suma</b> de <b>ambos</b> números.
+	 * @return devuelve la <b>suma</b> de <b>ambos</b> nï¿½meros.
 	 * 
 	 */
 	public double sumaDosReales(double num1, double num2) {
 
 		return num1 + num2;
 	}
+	
 
 	/**
-	 * Este método realiza la <b>suma</b> de <b>dos</b> números <b>enteros</b>.
+	 * Este mï¿½todo realiza la <b>suma</b> de <b>dos</b> nï¿½meros <b>enteros</b>.
 	 * 
-	 * @param num1 representa el <b>primer</b> número <b>entero</b> a sumar.
-	 * @param num2 representa el <b>segundo</b> número <b>entero</b> a sumar.
+	 * @param num1 representa el <b>primer</b> nï¿½mero <b>entero</b> a sumar.
+	 * @param num2 representa el <b>segundo</b> nï¿½mero <b>entero</b> a sumar.
 	 * 
-	 * @return devuelve la <b>suma</b> de <b>ambos</b> números.
+	 * @return devuelve la <b>suma</b> de <b>ambos</b> nï¿½meros.
 	 * 
 	 */
 	public int sumaDosEnteros(int num1, int num2) {
@@ -45,13 +46,13 @@ public class Suma {
 	}
 
 	/**
-	 * Este método realiza la <b>suma</b> de <b>tres</b> números <b>reales</b>.
+	 * Este mï¿½todo realiza la <b>suma</b> de <b>tres</b> nï¿½meros <b>reales</b>.
 	 * 
-	 * @param num1 representa el <b>primer</b> número <b>real</b> a sumar.
-	 * @param num2 representa el <b>segundo</b> número <b>real</b> a sumar.
-	 * @param num3 representa el <b>tercer</b> número <b>real</b> a sumar.
+	 * @param num1 representa el <b>primer</b> nï¿½mero <b>real</b> a sumar.
+	 * @param num2 representa el <b>segundo</b> nï¿½mero <b>real</b> a sumar.
+	 * @param num3 representa el <b>tercer</b> nï¿½mero <b>real</b> a sumar.
 	 * 
-	 * @return devuelve la <b>suma</b> de los <b>tres</b> números.
+	 * @return devuelve la <b>suma</b> de los <b>tres</b> nï¿½meros.
 	 * 
 	 */
 	public double sumaTresReales(double num1, double num2, double num3) {
@@ -60,12 +61,12 @@ public class Suma {
 	}
 
 	/**
-	 * ESte método recibe <b>un</b> valor de <b>entrada</b> y lo va
+	 * ESte mï¿½todo recibe <b>un</b> valor de <b>entrada</b> y lo va
 	 * <b>acumulando</b>
 	 * 
-	 * @param num representa el <b>valor</b> de entrada. Es un número <b>entero</b>.
+	 * @param num representa el <b>valor</b> de entrada. Es un nï¿½mero <b>entero</b>.
 	 * 
-	 *            Este método <b>no</b> devuelve valor.
+	 *            Este mï¿½todo <b>no</b> devuelve valor.
 	 * 
 	 */
 	public void valorAcumulado(int num) {
