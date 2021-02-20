@@ -32,7 +32,7 @@ class Test_resta {
 	
 	@BeforeEach
 	void setUp() throws Exception{
-		
+		res1 = new Resta();
 	}
 	
 	@AfterEach
