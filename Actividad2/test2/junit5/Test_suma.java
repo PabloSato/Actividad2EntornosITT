@@ -9,7 +9,10 @@ class Test_suma {
 	@Test
 	void test() {
 		fail("Not yet implemented");
+<<<<<<< HEAD
 		
+=======
+>>>>>>> master
 	}
 
 }
