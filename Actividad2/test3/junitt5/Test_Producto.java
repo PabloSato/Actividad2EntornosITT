@@ -55,7 +55,24 @@ class Test_Producto {
 		assertNotEquals(1, pro1.productoDosEnteros(2,6));
 	}
 	
+	@Test
+	void testProductoTresReales() {
+		
+		assertEquals(8, pro1.productoTresReales(2,2,2));
+		assertNotEquals(1, pro1.productoTresReales(2,6,2));
+	}
 	
+	@Test
+	void testPotenciaDouble() {
+		
+		assertEquals(16, pro1.potenciaDouble(4,2));
+		//probando que el num2 no pueda ser 0
+		assertNotEquals(0,pro1.potenciaDouble(1, 0));
+		assertEquals(64, pro1.potenciaDouble(2,6));
+		//probando numero negativos
+		assertEquals(64,pro1.potenciaDouble(-2, 6));
+	
+	}
 	
 	
 }
