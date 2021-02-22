@@ -71,7 +71,7 @@ class Test_resta {
 	@Test
 	void testSetReales2() {
 
-		res1.setReales2(2, 1);
+		res1.setReales2(2.5, 1.5);
 		
 		assertEquals(1, res1.getResultado());
 		assertEquals(1, res1.getAcumulador());
@@ -79,7 +79,7 @@ class Test_resta {
 		assertNotEquals(2, res1.getResultado());
 		assertNotEquals(2, res1.getAcumulador());
 		
-		res1.setReales2(1, 3);
+		res1.setReales2(1.5, 3.5);
 		
 		assertEquals(-2, res1.getResultado());
 		assertEquals(-1, res1.getAcumulador());
@@ -87,19 +87,19 @@ class Test_resta {
 		assertNotEquals(2, res1.getResultado());
 		assertNotEquals(1, res1.getAcumulador());
 		
-		res1.setReales2(-2, 2);
+		res1.setReales2(-2.5, 2.5);
 		
-		assertEquals(-4, res1.getResultado());
-		assertEquals(-5, res1.getAcumulador());
-		assertEquals(-5, res1.getAcumulado());
+		assertEquals(-5, res1.getResultado());
+		assertEquals(-6, res1.getAcumulador());
+		assertEquals(-6, res1.getAcumulado());
 		
 		assertNotEquals(4, res1.getResultado());
 		assertNotEquals(5, res1.getAcumulador());
 		assertNotEquals(5, res1.getAcumulado());
 		
-		res1.setReales2(2, -2);
+		res1.setReales2(2.5, -2.5);
 		
-		assertEquals(4, res1.getResultado());
+		assertEquals(5, res1.getResultado());
 		assertEquals(-1, res1.getAcumulador());
 		assertEquals(-1, res1.getAcumulado());
 		
@@ -107,7 +107,7 @@ class Test_resta {
 		assertNotEquals(1, res1.getAcumulador());
 		assertNotEquals(1, res1.getAcumulado());
 		
-		res1.setReales2(-2, -2);
+		res1.setReales2(-2.5, -2.5);
 		
 		assertEquals(0, res1.getResultado());
 		assertEquals(-1, res1.getAcumulador());
