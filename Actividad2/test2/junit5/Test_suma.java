@@ -46,7 +46,7 @@ class test_Suma {
 	void testAcumulador() {
 		sum1.toString();
 		
-		assertEquals(1, sum1.sumaDosEnteros(1,1));
+		assertEquals(2, sum1.sumaDosEnteros(1,1));
 		
 		assertNotEquals(1, sum1.sumaDosEnteros(0,0));
 		
