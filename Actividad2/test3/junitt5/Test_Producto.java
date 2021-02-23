@@ -71,6 +71,7 @@ class Test_Producto {
 		assertEquals(64, pro1.potenciaDouble(2,6));
 		//probando numero negativos
 		assertNotEquals(-1,pro1.potenciaDouble(-1, 6));
+		//sobrepasa del limite, y nos da el resultado
 		assertEquals(100000,pro1.potenciaDouble(100000, 1));
 	}
 	
