@@ -70,8 +70,8 @@ class Test_Producto {
 		assertNotEquals(0,pro1.potenciaDouble(1, 0));
 		assertEquals(64, pro1.potenciaDouble(2,6));
 		//probando numero negativos
-		assertEquals(64,pro1.potenciaDouble(-2, 6));
-	
+		assertNotEquals(-1,pro1.potenciaDouble(-1, 6));
+		assertEquals(100000,pro1.potenciaDouble(100000, 1));
 	}
 	
 	
