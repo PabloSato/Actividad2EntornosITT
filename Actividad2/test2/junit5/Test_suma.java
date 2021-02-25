@@ -43,9 +43,21 @@ class test_Suma {
 	}
 	
 	@Test
+<<<<<<< HEAD
 	void testSumaEnteros() {
 
 		assertEquals(2, sum1.sumaDosEnteros(1,1));		
+=======
+<<<<<<< HEAD
+	void testAcumulador() {
+=======
+	void testSumaEnteros() {
+>>>>>>> 6cd776c691c4ef5d8c79f2c69841eef4e227f840
+		sum1.toString();
+		
+		assertEquals(2, sum1.sumaDosEnteros(1,1));
+		
+>>>>>>> b3cd9fe840ed78ea4f093efe1a478c6acd9b54bc
 		assertNotEquals(1, sum1.sumaDosEnteros(0,0));
 		
 	}
