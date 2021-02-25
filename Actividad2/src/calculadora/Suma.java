@@ -72,6 +72,7 @@ public class Suma {
 	public void valorAcumulado(int num) {
 
 		int valorAcumulado = +num;
+		
 	}
 
 }

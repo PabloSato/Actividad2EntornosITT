@@ -25,10 +25,14 @@ class test_Suma {
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception{
 		
+		System.out.println("Empezando tests");
+		
 	}
 	
 	@AfterAll
 	static void tearDownAfterClass() throws Exception{
+		
+		System.out.println("Siguiente test");
 		
 	}
 	
@@ -43,22 +47,34 @@ class test_Suma {
 	}
 	
 	@Test
-<<<<<<< HEAD
 	void testSumaEnteros() {
-
-		assertEquals(2, sum1.sumaDosEnteros(1,1));		
-=======
-<<<<<<< HEAD
-	void testAcumulador() {
-=======
-	void testSumaEnteros() {
->>>>>>> 6cd776c691c4ef5d8c79f2c69841eef4e227f840
-		sum1.toString();
 		
 		assertEquals(2, sum1.sumaDosEnteros(1,1));
-		
->>>>>>> b3cd9fe840ed78ea4f093efe1a478c6acd9b54bc
 		assertNotEquals(1, sum1.sumaDosEnteros(0,0));
+		
+	}
+	
+	@Test
+	void testSumaDosReales() {
+		
+		assertEquals(1.0, sum1.sumaDosReales(0.0,1.0));
+		assertNotEquals(1, sum1.sumaDosReales(3.0, 2.0));
+		
+	}
+	
+	@Test
+	void testSumaTresReales() {
+		
+		assertEquals(1.0, sum1.sumaTresReales(0.0,1.0,0.0));
+		assertNotEquals(1, sum1.sumaTresReales(6.0, 4.0, 1.0));
+		
+	}
+	
+	@Test
+	void testAcumulador() {
+		
+		//assertEquals(0, sum1.valorAcumulado(0));		
+		//assertNotEquals(1, sum1.valorAcumulado(0));
 		
 	}
 	
