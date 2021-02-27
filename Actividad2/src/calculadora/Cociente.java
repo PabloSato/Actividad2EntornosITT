@@ -48,6 +48,9 @@ public class Cociente {
  * @param resultado es el total de la operacion algoritmica, que devuelve un numero entero.
  * @return la division de ambos numeros.
  * 
+ * 
+ * 
+ * 
  * @exception 
  * Se ejecutara el metodo siempre y cuando el resto de la division sea 0 y en caso
  * de introducir valor mayor, o igual a 0 (a los operandos). Para ello se emplea los condicionales if.
@@ -57,21 +60,15 @@ public class Cociente {
  * 
  */
 			
-		public int division (int operando1, int operando2) {
-
-
+		public int division (int operando1, int operando2) throws ArithmeticException {
+			
+			if(operando2 != 0) {
+				resultado = operando1 / operando2;
+			}else {
+				resultado = 0;
+				throw new ArithmeticException("El operando2 no puede ser 0");
 				
-			//condicionales divisor distinto de 0 y resto 0 para resultado igual a numero entero
-			if (operando1 % operando2 == 0) {
-			if ((operando1 > 0) && (operando2 > 0)) { 
-			
-			resultado = operando1 / operando2;//asigna un valor a la variable resultado
-			
-					
-				
-		}
-			
-	}
+			}
 			return resultado;//devuelve la varible resultado 		
 }		
 	
@@ -97,11 +94,13 @@ public class Cociente {
 
 				    
 			//condicional divisor distinto de 0 
-			if ((operando1 > 0) && (operando2 > 0)) { 
-	
-			resultadoDouble = operando1 / operando2;//asigna un valor a la variable resultado							
-					
-	}
+			if(operando2 != 0) {
+				resultadoDouble = operando1 / operando2;
+			}else {
+				resultadoDouble = 0;
+				throw new ArithmeticException("El operando2 no puede ser 0");
+				
+			}
 			return resultadoDouble;//devuelve la varible resultado 			
 }
 
@@ -165,7 +164,7 @@ public class Cociente {
  * 
  */		
 		
-		String consultar() {
+		public String consultar() {
 			
 			return("El resultado de la division con dos numeros enteros es: " + this.resultado);
 			
