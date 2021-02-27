@@ -62,7 +62,7 @@ public class Main {
 		cocJ1.inverso2(8);
 		System.out.println(cocJ1.consultarInverso2());
 		
-		//METODOS AÑADIDOS POR RUBEN
+		//METODOS Aï¿½ADIDOS POR RUBEN
 		Producto producto = new Producto();
 		System.out.println(producto.productoDosReales(4, 5));
 		System.out.println(producto.productoDosEnteros(7, 6));

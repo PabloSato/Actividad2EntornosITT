@@ -61,12 +61,12 @@ public class Suma {
 	}
 
 	/**
-	 * ESte m�todo recibe <b>un</b> valor de <b>entrada</b> y lo va
+	 * ESte metodo recibe <b>un</b> valor de <b>entrada</b> y lo va
 	 * <b>acumulando</b>
 	 * 
-	 * @param num representa el <b>valor</b> de entrada. Es un n�mero <b>entero</b>.
+	 * @param num representa el <b>valor</b> de entrada. Es un numero <b>entero</b>.
 	 * 
-	 *            Este m�todo <b>no</b> devuelve valor.
+	 *            Este metodo <b>no</b> devuelve valor.
 	 * 
 	 */
 	public void valorAcumulado(int num) {
@@ -74,5 +74,24 @@ public class Suma {
 		int valorAcumulado = +num;
 		
 	}
-
+	
+	/**
+	 * ESte metodo recibe <b>un</b> valor de <b>entrada</b> y lo va
+	 * <b>acumulando</b>
+	 * 
+	 * @param num representa el <b>valor</b> de entrada. Es un numero <b>entero</b>.
+	 * @param acumulado representa el <b>valor acumulado</b> de los enteros introducidos.
+	 * 
+	 * @author Sergio Gomez
+	 * @since 27/02/21
+	 * 
+	 */
+	
+	public int valorAcumulado(int acumulado, int num) {
+		
+		acumulado =+ num;
+		return acumulado;
+		
+	}
+	
 }
